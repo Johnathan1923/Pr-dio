@@ -1,0 +1,15 @@
+#Usando for loop :
+
+for numero in range(20, 0, -1):
+    if (numero == 13):
+      continue
+        print(numero)
+
+#Usando o while loop :
+
+numero = 20
+while (numero >= 1):
+    if (numero == 13):
+        continue
+        print(numero)
+    numero -= 1
